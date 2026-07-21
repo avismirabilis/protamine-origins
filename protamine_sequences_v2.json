@@ -1,0 +1,378 @@
+{
+ "_meta": {
+  "description": "Curated tetrapod sperm protamine-1 (PRM1 / galline) dataset for comparative biophysics. Sequences retrieved from UniProt (June 2026). 'system' classifies the chromatin-stabilization strategy: 'disulfide' (cysteine-rich, eutherian-type) vs 'electrostatic' (cysteine-poor, arginine-hyperenriched). [v2: expanded to 46 taxa per 2026-07-18 pre-registration — +21 taxa: 4 cysteine-bearing Planigale (independent origin), 6 cysteine-free dasyurid sisters, 10 family-breadth marsupials, Alligator.]",
+  "excluded": {
+   "Taeniopygia_guttata": "UniProt A0A674G9L0 is annotated 'ITPR-interacting domain-containing protein' (381 aa) with a spurious non-protamine N-terminus and a poly-Arg C-terminal tail; a gene-model artifact, not a clean PRM1 ortholog. Excluded from all analyses."
+  }
+ },
+ "sequences": [
+  {
+   "species": "Homo sapiens",
+   "common": "human",
+   "clade": "eutherian",
+   "accession": "P04553",
+   "partial": false,
+   "seq": "MARYRCCRSQSRSRYYRQRQRSRRRRRRSCQTRRRAMRCCRPRYRPRCRRH"
+  },
+  {
+   "species": "Gorilla gorilla",
+   "common": "gorilla",
+   "clade": "eutherian",
+   "accession": "P35303",
+   "partial": false,
+   "seq": "MARYRCCRSQSRSRCYRQRQTSRRRRRRSCQTQRRAMRCCRRRNRLRRRKH"
+  },
+  {
+   "species": "Mus musculus",
+   "common": "mouse",
+   "clade": "eutherian",
+   "accession": "P02319",
+   "partial": false,
+   "seq": "MARYRCCRSKSRSRCRRRRRRCRRRRRRCCRRRRRRCCRRRRSYTIRCKKY"
+  },
+  {
+   "species": "Rattus norvegicus",
+   "common": "rat",
+   "clade": "eutherian",
+   "accession": "P10118",
+   "partial": false,
+   "seq": "MARYRCCRSKSRSRCRRRRRRCRRRRRRCCRRRRRRCCRRRRSYTFRCKRY"
+  },
+  {
+   "species": "Cavia porcellus",
+   "common": "guinea pig",
+   "clade": "eutherian",
+   "accession": "P35304",
+   "partial": false,
+   "seq": "MARYRCCRSPSRSRCRRRRRRFYRRRRRCHRRRRRCCRRRYTRRCKRY"
+  },
+  {
+   "species": "Oryctolagus cuniculus",
+   "common": "rabbit",
+   "clade": "eutherian",
+   "accession": "P10119",
+   "partial": false,
+   "seq": "MVRYRCCRSQSRSRCRRRRRRCRRRRRRCCQRRRVRKCCRRTYTLRCRRY"
+  },
+  {
+   "species": "Sus scrofa",
+   "common": "pig",
+   "clade": "eutherian",
+   "accession": "P04101",
+   "partial": false,
+   "seq": "MARYRCCRSHSRSRCRPRRRRCRRRRRRCCPRRRRAVCCRRYTVIRCRRC"
+  },
+  {
+   "species": "Bos taurus",
+   "common": "cattle",
+   "clade": "eutherian",
+   "accession": "P02318",
+   "partial": false,
+   "seq": "MARYRCCLTHSGSRCRRRRRRRCRRRRRRFGRRRRRRVCCRRYTVIRCTRQ"
+  },
+  {
+   "species": "Equus caballus",
+   "common": "horse",
+   "clade": "eutherian",
+   "accession": "P15341",
+   "partial": false,
+   "seq": "MARYRCCRSQSQSRCRRRRRRRCRRRRRRSVRQRRVCCRRYTVLRCRRRR"
+  },
+  {
+   "species": "Eptesicus fuscus",
+   "common": "big brown bat",
+   "clade": "eutherian",
+   "accession": "Q7JH05",
+   "partial": false,
+   "seq": "MARYRCCRSRSRCRRRRRRCYRRRRRCCRRRRRRVCCRRYTVIRCRRR"
+  },
+  {
+   "species": "Monodelphis domestica",
+   "common": "opossum",
+   "clade": "marsupial",
+   "accession": "P67836",
+   "partial": false,
+   "seq": "MARYRRRSRSRSRSRYGRRRRRSRSRRRRSRRRRRRRGRRGRGYHRRSPHRRRRRRRR"
+  },
+  {
+   "species": "Sarcophilus harrisii",
+   "common": "Tasmanian devil",
+   "clade": "marsupial",
+   "accession": "P62486",
+   "partial": false,
+   "seq": "MARYRRRSRSRSRSRYRRRRRRRSRGRRRRTYRRSRRHSRRRRGRRRGYSRRRYSRRGRRRY"
+  },
+  {
+   "species": "Macropus giganteus",
+   "common": "grey kangaroo",
+   "clade": "marsupial",
+   "accession": "P42139",
+   "partial": false,
+   "seq": "MARYRHSRSRSRSRYRRRRRRRSRYRSRRRRYRGRRRRRSRRGRRRRGYSRRRYSRRRRRY"
+  },
+  {
+   "species": "Trichosurus vulpecula",
+   "common": "brushtail possum",
+   "clade": "marsupial",
+   "accession": "P42152",
+   "partial": false,
+   "seq": "MARYRHSRSRSRSRYRRRRRRRRSRYRSRRRRYRRSRRRRRRGRRRRGYSRRRYSRRGRRRY"
+  },
+  {
+   "species": "Isoodon macrourus",
+   "common": "bandicoot",
+   "clade": "marsupial",
+   "accession": "P42136",
+   "partial": false,
+   "seq": "MASYRNSRSRSRSRFRRRRGRRSRVRGRDARQGRSSRRRRRGKGRAHSGKKGRRSGSRRRKRNNENK"
+  },
+  {
+   "species": "Ornithorhynchus anatinus",
+   "common": "platypus",
+   "clade": "monotreme",
+   "accession": "P35307",
+   "partial": false,
+   "seq": "MARFRRSRSRSRSLYRRRRRSRRGGRQTRSRKLSRSRRRGRSRRRKGRRSRRSSRRSRRRN"
+  },
+  {
+   "species": "Tachyglossus aculeatus",
+   "common": "echidna",
+   "clade": "monotreme",
+   "accession": "P35311",
+   "partial": false,
+   "seq": "MARFRPSRSRSRSLYRRRRRSRRQRSRRGGRQTGPRKITRRGRGRGKSRRRRGRRSMRSSRRRRRRRRN"
+  },
+  {
+   "species": "Gallus gallus",
+   "common": "chicken",
+   "clade": "bird",
+   "accession": "P15340",
+   "partial": false,
+   "seq": "MARYRRSRTRSRSPRSRRRRRRSGRRRSPRRRRRYGSARRSRRSVGGRRRRYGSRRRRRRRY"
+  },
+  {
+   "species": "Coturnix japonica",
+   "common": "Japanese quail",
+   "clade": "bird",
+   "accession": "P14402",
+   "partial": false,
+   "seq": "MARYRRTRTRSRSRRRRRSRRRRSSRRRRYGRSRRSYRSVGRRRRRYGRRRRRRRRY"
+  },
+  {
+   "species": "Chrysemys picta bellii",
+   "common": "painted turtle",
+   "clade": "reptile",
+   "accession": "Q7LZB2",
+   "partial": false,
+   "seq": "MARYRRNRSRSRSRRRRRRRGGRGGRRGRRRRRHGQRRRGRRGRERTRRRRRRRRRSSS"
+  },
+  {
+   "species": "Pantherophis quadrivittatus",
+   "common": "rat snake",
+   "clade": "reptile",
+   "accession": "Q7LZA8",
+   "partial": true,
+   "seq": "RRRRRRRRGGKGGRRRRRRRHGRRKGRRHGRRRRRGRGKKD"
+  },
+  {
+   "species": "Anolis carolinensis",
+   "common": "anole lizard",
+   "clade": "reptile",
+   "accession": "Q7LZB3",
+   "partial": true,
+   "seq": "RRRRRRRGRGHGGGKKRRGRRRGGGKGKGHHKKRRRRRRHH"
+  },
+  {
+   "species": "Bufo japonicus",
+   "common": "toad",
+   "clade": "amphibian",
+   "accession": "P24641",
+   "partial": false,
+   "seq": "MPPRRKRVSSAPRRRRRTYRRTTAHKHQDRPVHRRRRRRH"
+  },
+  {
+   "species": "Cynops pyrrhogaster",
+   "common": "newt",
+   "clade": "amphibian",
+   "accession": "O13030",
+   "partial": false,
+   "seq": "MAYGRARSRGRSVRRRRRGRSPGRRRRGRRSDNDAPRRRRRRRQ"
+  },
+  {
+   "species": "Pleurodeles waltl",
+   "common": "Iberian newt",
+   "clade": "amphibian",
+   "accession": "A0AAV7T7T3",
+   "partial": false,
+   "seq": "MSRRRSRRRRSTRRWCSHRRCRRRQSRRRWSRYRCRQHRRGCHRRCQYCHAFRRRGCRQRGCRRRVRRRYFRR"
+  },
+  {
+   "species": "Planigale tenuirostris",
+   "common": "narrow-nosed planigale",
+   "clade": "marsupial",
+   "accession": "O18748",
+   "partial": false,
+   "seq": "MARCRRHIRSRSRSRNQCQRRRRRSHYNRRRTYRRSRRHSRRRRVRRRGCSCRRCSRRRRRRC"
+  },
+  {
+   "species": "Planigale ingrami",
+   "common": "long-tailed planigale",
+   "clade": "marsupial",
+   "accession": "P42148",
+   "partial": false,
+   "seq": "MARSRRHSRSRSRSRNQCQRRRRRTYNRRRTMREKPRHSRRRRVRRRGCSCRRCSRRRRRRC"
+  },
+  {
+   "species": "Planigale gilesi",
+   "common": "Giles's planigale",
+   "clade": "marsupial",
+   "accession": "O18747",
+   "partial": false,
+   "seq": "MARCRRHSRSRSRSRNQCQRRRRRHYNRRRTYRRSRRHSRRRRVRRRGCSCRRCSRRRRRRC"
+  },
+  {
+   "species": "Planigale maculata sinualis",
+   "common": "common planigale",
+   "clade": "marsupial",
+   "accession": "O18746",
+   "partial": false,
+   "seq": "MARCRRHSRSRSRSRNQCQRRRRRRYNRRRTYRRSRRHSRRRRGRRRGCSRRRYSRRGRRRY"
+  },
+  {
+   "species": "Antechinomys laniger",
+   "common": "kultarr",
+   "clade": "marsupial",
+   "accession": "O18745",
+   "partial": false,
+   "seq": "MARYRRHSRSRSRSRYRRRRRRRSRHHNRRTYRRSRRHSRRRRGRRRGYSRRRYSRRGRRRY"
+  },
+  {
+   "species": "Antechinus bellus",
+   "common": "fawn antechinus",
+   "clade": "marsupial",
+   "accession": "Q71V18",
+   "partial": false,
+   "seq": "MARYRRHSRSRSRSRYRRRRRRRSRHHNRRRTYRRSRRHSRRRRGRRRGYSRRRYSRRGRRRY"
+  },
+  {
+   "species": "Dasykaluta rosamondae",
+   "common": "little red kaluta",
+   "clade": "marsupial",
+   "accession": "P67830",
+   "partial": false,
+   "seq": "MARYRRHSRSRSRSRYRRRRRRRSRHRNRRRTYRRSRRHSRRRRGRRRGYSRRRYSRRGRRRY"
+  },
+  {
+   "species": "Dasyurus albopunctatus",
+   "common": "New Guinea quoll",
+   "clade": "marsupial",
+   "accession": "P67851",
+   "partial": false,
+   "seq": "MARYRRHSRSRSRSRYRRRRRRRSRGRRRRTYRRSRRHSRRRRGRRRGYSRRRYSRRGRRRY"
+  },
+  {
+   "species": "Pseudantechinus bilarni",
+   "common": "sandstone pseudantechinus",
+   "clade": "marsupial",
+   "accession": "O18768",
+   "partial": false,
+   "seq": "MARYRRHSRSRSRSRYRRRRRRRSRHRNRRRTYRRSRRHSRRRRGRRRGYSRRRYSRRGRRR"
+  },
+  {
+   "species": "Sminthopsis bindi",
+   "common": "Kakadu dunnart",
+   "clade": "marsupial",
+   "accession": "Q9TUC4",
+   "partial": false,
+   "seq": "MARYRRHSRSRSRSRYRRRRRRRSRHHNRRRTYRRSRRHSIRRRGRRRGYSRRRYSRRGRRRY"
+  },
+  {
+   "species": "Caenolestes fuliginosus",
+   "common": "dusky shrew opossum",
+   "clade": "marsupial",
+   "accession": "P42131",
+   "partial": false,
+   "seq": "MARYRHSRSRSRSRYRRRRRRRRSRYRSRRRRYRRSRRRRRRGRRRGYSRRRYSRRRRRRY"
+  },
+  {
+   "species": "Potorous longipes",
+   "common": "long-footed potoroo",
+   "clade": "marsupial",
+   "accession": "Q9GLP8",
+   "partial": false,
+   "seq": "MARYRHSRSRSRXRYRRRRRRRSRYRSRRRRYRGSRRSRSRRRGRRRGYSRRRYSRRRRRY"
+  },
+  {
+   "species": "Notamacropus rufogriseus",
+   "common": "red-necked wallaby",
+   "clade": "marsupial",
+   "accession": "P67842",
+   "partial": false,
+   "seq": "MARYRHSRSRSRSRYRRRRRRRSRYRSRRRRYRGRRRRRSRRGRRRRGYSRRRYSRRRRRRY"
+  },
+  {
+   "species": "Didelphis virginiana",
+   "common": "Virginia opossum",
+   "clade": "marsupial",
+   "accession": "P67837",
+   "partial": false,
+   "seq": "MARYRRRSRSRSRSRYGRRRRRSRSRRRRSRRRRRRRGRRGRGYHRRSPHRRRRRRRR"
+  },
+  {
+   "species": "Dromiciops gliroides",
+   "common": "monito del monte",
+   "clade": "marsupial",
+   "accession": "P42132",
+   "partial": false,
+   "seq": "MVRYRRHSRSRSRSRYRRRRRRRLRNRRRRYRRSRRGRRRRRRGSRRGYSRRRYQSRRRRRRRY"
+  },
+  {
+   "species": "Perameles gunnii",
+   "common": "eastern barred bandicoot",
+   "clade": "marsupial",
+   "accession": "P42147",
+   "partial": false,
+   "seq": "MASYRNSRSRSRSRFRRRRRGRSRVRGRDARQGRSSRRRRRGKGRAHSGKKGRRSGSRRRKRNNNTENK"
+  },
+  {
+   "species": "Notoryctes typhlops",
+   "common": "marsupial mole",
+   "clade": "marsupial",
+   "accession": "P42143",
+   "partial": false,
+   "seq": "MARYRHSRSRSRSRYRRRRRRRSRYRSQRRRYRRHRRSGRRRRRGRRRGYRRRYHSHRRRY"
+  },
+  {
+   "species": "Thylacinus cynocephalus",
+   "common": "thylacine",
+   "clade": "marsupial",
+   "accession": "P67846",
+   "partial": false,
+   "seq": "MARYRRHSRSRSRSRYRRRRRRRSRHHNRRRTYRRSRRHSRRRRGRRRGYSRRRYSRRGRRRY"
+  },
+  {
+   "species": "Phascolarctos cinereus",
+   "common": "koala",
+   "clade": "marsupial",
+   "accession": "P79990",
+   "partial": false,
+   "seq": "MARYRHSRSRSRSRYQRRRRRRSRYRSQRRRYRRRRGSRRRRRRGRRRGYRRRYSRRRRY"
+  },
+  {
+   "species": "Myrmecobius fasciatus",
+   "common": "numbat",
+   "clade": "marsupial",
+   "accession": "P67845",
+   "partial": false,
+   "seq": "MARYRRHSRSRSRSRYRRRRRRRSRHHNRRRTYRRSRRHSRRRRGRRRGYSRRRYSRRGRRRY"
+  },
+  {
+   "species": "Alligator mississippiensis",
+   "common": "American alligator",
+   "clade": "reptile",
+   "accession": "Q7LZB6",
+   "partial": false,
+   "seq": "MARYRHNRSRSRSRHRRRRRGHRGGRYRRRRRRGRYGHRRHHRGHSRRRRKRRRSRH"
+  }
+ ]
+}
